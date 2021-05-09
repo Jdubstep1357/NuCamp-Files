@@ -8,13 +8,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-
-    <!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <link rel="stylesheet" href="styles.css" />
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
 
@@ -26,17 +24,30 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <h1>NuCamp</h1>
-                    <h2>a better way to camp</h2>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                              <!-- JUMBOTRON NOT WORKING-->
+                              <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                                <a href="index.html"><img src="img/img/logo.png" class="img-fluid" /></a>
+                            </div>
+                            <div class="col">
+                        <h1>NuCamp</h1>
+                        <h2>a better way to camp</h2>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            
+                <!-- sticky-top 
+                    As you scroll down, sticky bar stays up at the top
+                -->
+                <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+                    <!-- This is the button 
+                        DATA-TOGGLE triggers the dropdown effect
+                        DATA-TARGET links to the id
+                    -->
+            
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html"><img src="img/img/logo.png" height="30" width="30"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="nucampNavbar">
@@ -62,26 +73,26 @@
             </div>
         </div>
 
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4">
-                <h5>Our Address</h5>
-                <address>
-                    1 Nucamp Way<br />
-                    Seattle, WA 98001<br />
-                    U.S.A.
-                </address>
-            </div>
-            <div class="col">
-                <!-- 
-                    The number for href, when clicked, will try and call my number
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4">
+                    <h5>Our Address</h5>
+                    <address>
+                        1 Nucamp Way<br />
+                        Seattle, WA 98001<br />
+                        U.S.A.
+                    </address>
+                </div>
+                <div class="col">
+                    <!-- 
+                        The number for href, when clicked, will try and call my number
 
-                -->
-                <a role="button" class="Btn btn-link" href="tel: +2065551234"><i class="fa fa-phone fa-lg text-primary"></i> 1-206-555-1234</a><br />
-                <a role="button" class="btn btn-link" href="mailto: campsites@nucamp.co"><i class="fa fa-envelope-o fa-lg text-primary"></i>
-                campsites@nucamp.com</a>
-            </div>
-            </div>
-        </div>
+                    -->
+                    <a role="button" class="Btn btn-link" href="tel: +2065551234"><i class="fa fa-phone fa-lg text-primary"></i> 1-206-555-1234</a><br />
+                    <a role="button" class="btn btn-link" href="mailto: campsites@nucamp.co"><i class="fa fa-envelope-o fa-lg text-primary"></i>
+                    campsites@nucamp.com</a>
+                </div>
+                </div>
+  
 
         <div class="row row-content">
             <div class="col-12">
@@ -160,8 +171,9 @@
        </div>
 
     </div>
+</div>
 
-    <footer class="site-folder">
+    <footer class="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-2 offset-1">

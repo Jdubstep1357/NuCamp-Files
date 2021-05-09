@@ -18,5 +18,13 @@
     "bootstrap-social": "^5.1.1",
     "jquery": "^3.6.0",
     "popper.js": "^1.14.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jdubstep1357/NuCamp-Files.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jdubstep1357/NuCamp-Files/issues"
+  },
+  "homepage": "https://github.com/Jdubstep1357/NuCamp-Files#readme"
 }
